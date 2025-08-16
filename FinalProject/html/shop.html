@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product page</title>
+<link rel="stylesheet" href="../css/mall.css">
+</head>
+<body>
+
+<header> 
+    <nav>
+      <a href="./Mall.html">Home</a>
+      <a href="#">Shop</a>
+      <a href="./cart.html">Cart</a>
+      
+    </nav>
+  </header>
+
+  <h1>Products</h1>
+
+<div class="products">
+    <div class="product">
+        <img src="../images/Phone.jpeg" alt="Product A">
+        <div class="product-info">
+            <strong>Phone</strong> - $300
+        </div>
+        <button onclick="addToCart('Phone', 300,)">AddToCart</button>
+    </div>
+    <div class="product">
+        <img src="../images/Laptop.jpeg" alt="Product B">
+        <div class="product-info">
+            <strong>Laptop</strong> - $500
+        </div>
+        <button onclick="addToCart('Laptop', 500,)">AddToCart</button>
+    </div>
+    <div class="product">
+        <img src="../images/Headphone.jpeg" alt="Product C">
+        <div class="product-info">
+            <strong>HeadPhone</strong> - $20
+        </div>
+        <button onclick="addToCart('Headphone', 20, )">AddToCart</button>
+    </div>
+
+    <a href="cart.html" class="view-cart">Go to Cart</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 Nase Mini-Mall. All rights reserved.</p>
+    <p class="footer-note">Developed by Haggai Cooper </p>
+  </footer>
+
+<script src="../js/mall.js">
+   
+</script>
+
+</body>
+</html>
